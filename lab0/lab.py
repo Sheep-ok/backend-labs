@@ -1,8 +1,8 @@
-def middle(a, b, c):
+def middle(x, y, z):
     """Return the number among a, b, and c that is not the smallest or largest.
     Assume a, b, and c are all different numbers.
     """
-    return ____
+    return sorted([x,y,z])[1]
 
 
 def sum_digits(y: int) -> int:
